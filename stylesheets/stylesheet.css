@@ -7,10 +7,10 @@ body {
   font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 16px;
   line-height: 1.5;
-  color: #606c71; }
+  color: #3F454B; }
 
 a {
-  color: #1e6bb8;
+  color: #014C8D;
   text-decoration: none; }
   a:hover {
     text-decoration: underline; }
@@ -54,10 +54,17 @@ a {
       margin-left: 0; } }
 
 .page-header {
+    display: flex;
   color: #fff;
   text-align: center;
-  background-color: #159957;
-  background-image: linear-gradient(120deg, #155799, #159957); }
+  background-color: #DD453C;
+  /* background-image: linear-gradient(320deg, #DD453C, #B18F6A);*/
+    background-image: url(/images/OWCRalesW1000.png);
+    background-size: cover;
+    min-height: 400px;
+    max-height:600px;
+}
+
 
 @media screen and (min-width: 64em) {
   .page-header {
@@ -72,8 +79,15 @@ a {
     padding: 2rem 1rem; } }
 
 .project-name {
-  margin-top: 0;
-  margin-bottom: 0.1rem; }
+  margin: auto;
+    color:#B18F6A;
+    background-color: #DD453C;
+}
+.project-image {
+    max-width:300px;
+    max-height: 200px;
+    float: left;
+}
 
 @media screen and (min-width: 64em) {
   .project-name {
@@ -105,21 +119,22 @@ a {
     font-size: 1rem; } }
 
 .main-content :first-child {
-  margin-top: 0; }
+  margin-top: 0;
+}
 .main-content img {
   max-width: 100%; }
 .main-content h1, .main-content h2, .main-content h3, .main-content h4, .main-content h5, .main-content h6 {
   margin-top: 2rem;
   margin-bottom: 1rem;
   font-weight: normal;
-  color: #159957; }
+  color: #DD453C; }
 .main-content p {
   margin-bottom: 1em; }
 .main-content code {
   padding: 2px 4px;
   font-family: Consolas, "Liberation Mono", Menlo, Courier, monospace;
   font-size: 0.9rem;
-  color: #383e41;
+  color: #3F454B;
   background-color: #f3f6fa;
   border-radius: 0.3rem; }
 .main-content pre {
@@ -127,16 +142,16 @@ a {
   margin-top: 0;
   margin-bottom: 1rem;
   font: 1rem Consolas, "Liberation Mono", Menlo, Courier, monospace;
-  color: #567482;
+  color: #3F454B;
   word-wrap: normal;
   background-color: #f3f6fa;
-  border: solid 1px #dce6f0;
+  border: solid 1px #91A8D1;
   border-radius: 0.3rem; }
   .main-content pre > code {
     padding: 0;
     margin: 0;
     font-size: 0.9rem;
-    color: #567482;
+    color: #3F454B;
     word-break: normal;
     white-space: pre;
     background: transparent;
@@ -169,7 +184,7 @@ a {
 .main-content blockquote {
   padding: 0 1rem;
   margin-left: 0;
-  color: #819198;
+  color: #3F454B;
   border-left: 0.3rem solid #dce6f0; }
   .main-content blockquote > :first-child {
     margin-top: 0; }
@@ -200,7 +215,7 @@ a {
   height: 2px;
   padding: 0;
   margin: 1rem 0;
-  background-color: #eff0f1;
+  background-color: #98DCDD;
   border: 0; }
 
 @media screen and (min-width: 64em) {
@@ -223,23 +238,34 @@ a {
 .site-footer {
   padding-top: 2rem;
   margin-top: 2rem;
-  border-top: solid 1px #eff0f1; }
+  border-top: solid 1px #98DCDD; }
 
 .site-footer-owner {
   display: block;
   font-weight: bold; }
 
 .site-footer-credits {
-  color: #819198; }
+  color: #819198; 
+}
 
 @media screen and (min-width: 64em) {
   .site-footer {
-    font-size: 1rem; } }
+    font-size: 66%; } }
+
 
 @media screen and (min-width: 42em) and (max-width: 64em) {
   .site-footer {
-    font-size: 1rem; } }
+    font-size: 66%; } }
 
 @media screen and (max-width: 42em) {
   .site-footer {
-    font-size: 0.9rem; } }
+    font-size: 66%; } }
+
+@media screen and (min-width: 760px) {
+    h1{
+        
+    }
+    
+}
+
+
